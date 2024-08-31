@@ -14,6 +14,7 @@ import {
 import { SiStatista, SiShortcut } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { RiAdvertisementFill, RiEdit2Fill } from "react-icons/ri";
+import classNames from "classnames";
 
 export default function More() {
   return (
@@ -58,82 +59,108 @@ export default function More() {
           <div className="pr-4 text-xl font-bold">Para kazanma</div>
         </button>
 
-        <Disclosure>
-          <DisclosureButton className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a] transition-colors">
-            İçerik Üretici Stüdyosu
-            <IoIosArrowDown />
-          </DisclosureButton>
+        <div className="h-px bg-[#2f3336] my-0.5 w-[89%] mx-auto"></div>
 
-          <DisclosurePanel className="text-gray-500">
-            <Link
-              to="/"
-              className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
-            >
-              {" "}
-              <SiStatista /> İstatistikler
-            </Link>
-          </DisclosurePanel>
+        <Disclosure>
+          {({ open }) => (
+            <>
+              <DisclosureButton className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a] transition-colors">
+                İçerik Üretici Stüdyosu
+                <IoIosArrowDown
+                  className={classNames({
+                    "rotate-180 text-[#1d9bf0]": open,
+                  })}
+                />
+              </DisclosureButton>
+
+              <DisclosurePanel className="text-gray-500">
+                <Link
+                  to="/"
+                  className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
+                >
+                  {" "}
+                  <SiStatista /> İstatistikler
+                </Link>
+              </DisclosurePanel>
+            </>
+          )}
         </Disclosure>
 
         <Disclosure>
-          <DisclosureButton className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a] transition-colors">
-            Profesyonel Araçlar
-            <IoIosArrowDown />
-          </DisclosureButton>
+          {({ open }) => (
+            <>
+              <DisclosureButton className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a] transition-colors">
+                Profesyonel Araçlar
+                <IoIosArrowDown
+                  className={classNames({
+                    "rotate-180 text-[#1d9bf0]": open,
+                  })}
+                />
+              </DisclosureButton>
 
-          <DisclosurePanel className="text-gray-500">
-            <Link
-              to="/"
-              className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
-            >
-              {" "}
-              <RiAdvertisementFill /> Reklamlar
-            </Link>
-          </DisclosurePanel>
+              <DisclosurePanel className="text-gray-500">
+                <Link
+                  to="/"
+                  className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
+                >
+                  {" "}
+                  <RiAdvertisementFill /> Reklamlar
+                </Link>
+              </DisclosurePanel>
+            </>
+          )}
         </Disclosure>
 
         <Disclosure>
-          <DisclosureButton className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a] transition-colors">
-            Ayarlar ve Destek
-            <IoIosArrowDown />
-          </DisclosureButton>
+          {({ open }) => (
+            <>
+              <DisclosureButton className="h-[52px] flex items-center px-4 font-bold justify-between w-full hover:bg-[#eff3f41a] transition-colors">
+                Ayarlar ve Destek
+                <IoIosArrowDown
+                  className={classNames({
+                    "rotate-180 text-[#1d9bf0]": open,
+                  })}
+                />
+              </DisclosureButton>
 
-          <DisclosurePanel className="text-gray-500">
-            <Link
-              to="/"
-              className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
-            >
-              {" "}
-              <IoIosSettings /> Ayarlar ve gizlilik
-            </Link>
-          </DisclosurePanel>
-          <DisclosurePanel className="text-gray-500">
-            <Link
-              to="/"
-              className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
-            >
-              {" "}
-              <IoMdHelpCircleOutline /> Yardım Merkezi
-            </Link>
-          </DisclosurePanel>
-          <DisclosurePanel className="text-gray-500">
-            <Link
-              to="/"
-              className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
-            >
-              {" "}
-              <RiEdit2Fill /> Görünüm
-            </Link>
-          </DisclosurePanel>
-          <DisclosurePanel className="text-gray-500">
-            <Link
-              to="/"
-              className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
-            >
-              {" "}
-              <SiShortcut /> Klavye kısayolları
-            </Link>
-          </DisclosurePanel>
+              <DisclosurePanel className="text-gray-500">
+                <Link
+                  to="/"
+                  className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
+                >
+                  {" "}
+                  <IoIosSettings /> Ayarlar ve gizlilik
+                </Link>
+              </DisclosurePanel>
+              <DisclosurePanel className="text-gray-500">
+                <Link
+                  to="/"
+                  className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
+                >
+                  {" "}
+                  <IoMdHelpCircleOutline /> Yardım Merkezi
+                </Link>
+              </DisclosurePanel>
+              <DisclosurePanel className="text-gray-500">
+                <Link
+                  to="/"
+                  className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
+                >
+                  {" "}
+                  <RiEdit2Fill /> Görünüm
+                </Link>
+              </DisclosurePanel>
+              <DisclosurePanel className="text-gray-500">
+                <Link
+                  to="/"
+                  className="flex items-center px-3 h-11 gap-3 text-[15px] font-medium hover:bg-[#eff3f41a] transition-colors text-white"
+                >
+                  {" "}
+                  <SiShortcut /> Klavye kısayolları
+                </Link>
+              </DisclosurePanel>
+            </>
+          )}
         </Disclosure>
       </PopoverPanel>
     </Popover>

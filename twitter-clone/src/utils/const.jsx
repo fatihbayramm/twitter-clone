@@ -1,3 +1,5 @@
+import store from "../store";
+
 export const mainMenu = [
   {
     path: "/",
@@ -91,7 +93,7 @@ export const mainMenu = [
   },
 
   {
-    path: "bookmarks",
+    path: "/bookmarks",
     title: "Yer İşaretleri",
     icon: {
       active: (
@@ -137,7 +139,9 @@ export const mainMenu = [
   },
 
   {
-    path: "/profile",
+    path: () => {
+      return `/${store.getState()?.auth?.currentAccount?.username}`;
+    },
     title: "Profil",
     icon: {
       active: (
@@ -157,5 +161,78 @@ export const mainMenu = [
         </svg>
       ),
     },
+  },
+];
+
+export const topics = [
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "dilanpolat",
+    },
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 13102,
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 13102,
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 13102,
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 13102,
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 13102,
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 13102,
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "query",
+      value: "Starlink",
+    },
+    postCount: 13102,
   },
 ];
