@@ -6,7 +6,7 @@ const initialState = {
     username: "fatihbayramybs",
     fullName: "Fatih Bayram",
     avatar:
-      "https://pbs.twimg.com/profile_images/1768283194292375552/ZLQxtH_P_400x400.jpg",
+      "https://pbs.twimg.com/profile_images/1828162962600742912/KMpZAuBb_400x400.jpg",
   },
   accounts: [
     {
@@ -14,14 +14,14 @@ const initialState = {
       username: "fatihbayramybs",
       fullName: "Fatih Bayram",
       avatar:
-        "https://pbs.twimg.com/profile_images/1768283194292375552/ZLQxtH_P_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1828162962600742912/KMpZAuBb_400x400.jpg",
     },
     {
       id: 2,
       username: "fatihb",
       fullName: "Fatih Bayram",
       avatar:
-        "https://pbs.twimg.com/profile_images/1768283194292375552/ZLQxtH_P_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1828162962600742912/KMpZAuBb_400x400.jpg",
     },
   ],
 };
