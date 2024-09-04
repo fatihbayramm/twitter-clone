@@ -263,3 +263,5 @@ export const colors = [
     secondary: "#80ddbe",
   },
 ];
+
+export const fontSizes = [14, 15, 16, 18, 19];
