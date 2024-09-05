@@ -1,6 +1,6 @@
 export const numberFormat = (value) => {
   let config = {};
-  if (value > 9999) {
+  if (value > 1000) {
     config = {
       notation: "compact",
       maximumFractionDigits: 1,

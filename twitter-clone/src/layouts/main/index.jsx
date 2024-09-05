@@ -18,7 +18,7 @@ function MainLayout() {
 
     document.documentElement.style.setProperty(
       "--background-primary-alpha",
-      appearance.backgroundColor.primaryAlpha
+      appearance.backgroundColor.primary + "a6"
     );
     document.documentElement.style.setProperty(
       "--background-secondary",
