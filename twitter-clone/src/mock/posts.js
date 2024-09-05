@@ -1,10 +1,11 @@
 export const posts = [
   {
     id: "1708632465282150796",
+    type: "photo",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     photos: [
-      "https://en.wikiarquitectura.com/wp-content/uploads/2017/01/18_auditorio.jpg",
+      "https://pbs.twimg.com/media/GWe6KgeWsAEKRKc?format=jpg&name=medium",
     ],
     account: {
       avatar:
@@ -22,9 +23,13 @@ export const posts = [
 
   {
     id: "1708632465282150796",
+    type: "photo",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
-    photos: ["https://www.nicepng.com/png/detail/367-3679344_clip-art.png", ""],
+    photos: [
+      "https://pbs.twimg.com/media/GVweaEXXMAAbwVM?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GVZGOLBXsAEknWR?format=jpg&name=medium",
+    ],
     account: {
       avatar:
         "https://pbs.twimg.com/profile_images/1828162962600742912/KMpZAuBb_400x400.jpg",
@@ -41,10 +46,13 @@ export const posts = [
 
   {
     id: "1708632465282150796",
+    type: "photo",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     photos: [
-      "https://cdnuploads.aa.com.tr/uploads/Contents/2024/06/13/thumbs_b_c_bac6eb9b95e97650ea31ed786cde3394.jpg",
+      "https://pbs.twimg.com/media/GVUljjNXoAEO-e2?format=jpg&name=medium",
+      "https://pbs.twimg.com/media/GU7HZ-Ja4AA8cJx?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GUf65_3XIAEHWbz?format=jpg&name=large",
     ],
     account: {
       avatar:
@@ -63,10 +71,14 @@ export const posts = [
 
   {
     id: "1708632465282150796",
+    type: "photo",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     photos: [
-      "https://pbs.twimg.com/profile_banners/774369098876715008/1724702888/1500x500",
+      "https://pbs.twimg.com/media/GUTHHDTXsAAerO7?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GSs9ZPAXIAAI2WJ?format=jpg&name=large",
+      "https://pbs.twimg.com/media/GSs20MmXMAIDfQ-?format=jpg&name=medium",
+      "https://pbs.twimg.com/media/GSifwV9bQAAeEaG?format=jpg&name=medium",
     ],
     account: {
       avatar:
@@ -84,6 +96,8 @@ export const posts = [
 
   {
     id: "1708632465282150796",
+    type: "photo",
+
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
     photos: [
