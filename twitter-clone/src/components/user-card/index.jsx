@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Button from "..";
+import Button from "../button";
 
 export default function UserCard({ user }) {
   const [following, setFollowing] = useState(false);

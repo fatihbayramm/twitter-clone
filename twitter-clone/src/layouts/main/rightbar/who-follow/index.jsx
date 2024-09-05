@@ -1,6 +1,6 @@
 import Button from "../../../../components/button";
-import SidebarSection from "../../../../components/button/sidebar-section";
-import UserCard from "../../../../components/button/user-card";
+import SidebarSection from "../../../../components/sidebar-section";
+import UserCard from "../../../../components/user-card";
 import { whoFollowUsers } from "../../../../mock";
 import { useAccount } from "../../../../store/auth/hooks";
 export default function WhoFollow() {
