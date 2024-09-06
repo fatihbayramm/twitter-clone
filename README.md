@@ -22,7 +22,7 @@ Twitter Clone is a copy of the original twitter (new name X), made for improving
 - Tailwind CSS.
 - Redux to manage states
 
-# Quick Start
+# Installation
 Ensure that `node.js` is installed on your system first.
 Clone the git repo and execute install dependencies from npm to get ready:
 
