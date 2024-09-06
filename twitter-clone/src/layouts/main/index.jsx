@@ -38,6 +38,11 @@ function MainLayout() {
       "--color-primary",
       appearance.color.primary
     );
+
+    document.documentElement.style.setProperty(
+      "--color-primary-alpha",
+      appearance.color.primary + "12"
+    );
     document.documentElement.style.setProperty(
       "--color-secondary",
       appearance.color.secondary

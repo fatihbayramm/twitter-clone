@@ -1,6 +1,47 @@
 export const posts = [
   {
     id: "1708632465282150796",
+    type: "poll",
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s?",
+    poll: {
+      voted: false,
+      votes: 46,
+      answers: [
+        {
+          id: 1,
+          text: "Evet",
+          votes: 10,
+        },
+        {
+          id: 2,
+          text: "Hayır",
+          votes: 34,
+        },
+        {
+          id: 3,
+          text: "Kararsızım",
+          votes: 2,
+        },
+      ],
+    },
+
+    account: {
+      avatar:
+        "https://pbs.twimg.com/profile_images/1828162962600742912/KMpZAuBb_400x400.jpg",
+      username: "fatihbayramybs",
+      fullName: "Fatih Bayram",
+    },
+    stats: {
+      comments: 43,
+      repost: 53,
+      like: 10,
+      view: 2323,
+    },
+  },
+
+  {
+    id: "1708632465282150796",
     type: "photo",
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
