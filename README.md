@@ -15,6 +15,13 @@ Twitter Clone is a copy of the original twitter (new name X). This project is ma
 - tailwindcss
 
 # Architectural Structure
+- React with Hooks for rendering UI components, with DevTools support.
+- React Router for SPA routing.
+- Semantic UI.
+- Vite module bundling.
+- Tailwind CSS.
+- Redux to manage states
+
 React component structure is used in this project. There are many folders due to the component structure. This makes the application easier to manage.
 
 
