@@ -32,7 +32,7 @@ export default function Topic({ item }) {
         <PopoverPanel className="w-[384px] absolute rounded-xl grid top-2 overflow-hidden right-0 bg-[color:var(--background-primary)] shadow-box z-[1]">
           <button
             type="button"
-            className="hover:bg-white/[0.04] transition-colors text-left py-3 px-4 flex items-center gap-3 hover:bg-white/[0.01] -[15px] leading-5 font-bold"
+            className="hover:bg-[color:var(--background-secondary)] transition-colors text-left py-3 px-4 flex items-center gap-3 leading-5 font-bold"
           >
             <svg viewBox="0 0 24 24" width={18.75}>
               <path
@@ -45,7 +45,7 @@ export default function Topic({ item }) {
 
           <button
             type="button"
-            className="hover:bg-white/[0.04] transition-colors text-left py-3 px-4 flex items-center gap-3 text-[15px] leading-5 font-bold"
+            className="hover:bg-[color:var(--background-secondary)] transition-colors text-left py-3 px-4 flex items-center gap-3 text-[15px] leading-5 font-bold"
           >
             <svg viewBox="0 0 24 24" width={18.75}>
               <path
