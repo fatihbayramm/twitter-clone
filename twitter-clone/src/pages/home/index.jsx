@@ -15,7 +15,7 @@ export default function Home() {
         <Tab.Content id="for-you">
           <ForYou />
         </Tab.Content>
-        <Tab.Content id="followings">2. Content</Tab.Content>
+        <Tab.Content id="followings"></Tab.Content>
       </Tab>
     </>
   );

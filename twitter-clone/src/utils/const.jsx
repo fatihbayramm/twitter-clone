@@ -166,74 +166,66 @@ export const mainMenu = [
 
 export const topics = [
   {
+    title: "Gündemde",
+    topic: {
+      type: "tag",
+      value: "TFF",
+    },
+    postCount: 13102,
+  },
+
+  {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "tag",
-      value: "dilanpolat",
+      value: "Futbol",
     },
+    postCount: 10234,
+  },
+
+  {
+    title: "Türkiye tarihinde gündemde",
+    topic: {
+      type: "tag",
+      value: "Galatasaray",
+    },
+    postCount: 7890,
   },
 
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Fenerabahçe",
     },
-    postCount: 13102,
+    postCount: 6500,
   },
 
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Beşiktaş",
     },
-    postCount: 13102,
+    postCount: 5430,
   },
 
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Trabzonspor",
     },
-    postCount: 13102,
+    postCount: 4350,
   },
 
   {
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Starlink",
+      value: "Balıkesirspor",
     },
-    postCount: 13102,
-  },
-
-  {
-    title: "Türkiye tarihinde gündemde",
-    topic: {
-      type: "query",
-      value: "Starlink",
-    },
-    postCount: 13102,
-  },
-
-  {
-    title: "Türkiye tarihinde gündemde",
-    topic: {
-      type: "query",
-      value: "Starlink",
-    },
-    postCount: 13102,
-  },
-
-  {
-    title: "Türkiye tarihinde gündemde",
-    topic: {
-      type: "query",
-      value: "Starlink",
-    },
-    postCount: 13102,
+    postCount: 1252,
   },
 ];
 
