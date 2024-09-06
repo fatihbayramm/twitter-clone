@@ -38,15 +38,14 @@ npm run dev
 | Path.                                           | Description                                                     |
 |-------------------------------------------------|-----------------------------------------------------------------|
 | `/src/`                                         | The folder for your source files                                |
-| `/src/assets/css`                                     | Main Application                                                |
-| `/src/components`                              | - Assets (images, fonts, stylesheets, etc.)                     |
-| `/src/layouts/main`                             | - Layouts / Templates                                           |
+| `/src/components`                              | - Components such as button, post, sidebar, user-card...                    |
+| `/src/layouts/main`                             | - Layouts such as rightbar, sidebar, pages...                                        |
 | `/src/mock`                               | - Pages                                                         |
-| `/src/modals`                     | - Main application router                                       |
-| `/src/pages`                               | The list and configuration of your mapped applications          |
-| `/src/routes`                               | The index file                                                  |
-| `/src/store`                                      | The folder for your static files will be on your webroot        |
-| `/src/utils`                                      | The folder for your static files will be on your webroot        |
+| `/src/modals`                     | - Posts                                       |
+| `/src/pages`                               | Pages such as Homepage, explore, messages, notifications...          |
+| `/src/routes`                               | Router files                                                 |
+| `/src/store`                                      | Redux states.        |
+| `/src/utils`                                      | Menu svgs and number format.        |
 
 
 
