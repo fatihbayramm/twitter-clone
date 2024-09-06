@@ -22,6 +22,18 @@ Twitter Clone is a copy of the original twitter (new name X). This project is ma
 - Tailwind CSS.
 - Redux to manage states
 
+# Quick Start
+Ensure that `node.js` is installed on your system first.
+
+```sh
+npm create vite@latest
+cd twitter-clone
+npm install
+npm run dev
+```
+
+
+
 React component structure is used in this project. There are many folders due to the component structure. This makes the application easier to manage.
 
 
