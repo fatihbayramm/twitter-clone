@@ -14,6 +14,10 @@ Twitter Clone is a copy of the original twitter (new name X). This project is ma
 - Virtua
 - tailwindcss
 
+# Architectural Structure
+React component structure is used in this project. There are many folders due to the component structure. This makes the application easier to manage.
+
+
 
 
 
