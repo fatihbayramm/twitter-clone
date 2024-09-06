@@ -38,8 +38,8 @@ npm run dev
 | Path.                                           | Description                                                     |
 |-------------------------------------------------|-----------------------------------------------------------------|
 | `/src/`                                         | The folder for your source files.                                |
-| `/src/components`                              | - Components such as button, post, sidebar, user-card...                    |
-| `/src/layouts/main`                             | - Layouts such as rightbar, sidebar, pages...                                        |
+| `/src/components`                              |  Components such as button, post, sidebar, user-card...                    |
+| `/src/layouts/main`                             |  Layouts such as rightbar, sidebar, pages...                                        |
 | `/src/mock`                               | - Pages.                                                         |
 | `/src/modals`                     | - Posts.                                       |
 | `/src/pages`                               | Pages such as Homepage, explore, messages, notifications...          |
