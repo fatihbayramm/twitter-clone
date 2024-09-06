@@ -1,6 +1,6 @@
 # Twitter Clone
 
-Twitter Clone is a copy of the original twitter (new name X). This project is made to showcase my skills.
+Twitter Clone is a copy of the original twitter (new name X), made for improving skills in frontend development.
 
 # Dependencies Used In The Project
 - HeadlesUI
