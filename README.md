@@ -38,14 +38,16 @@ npm run dev
 | Path.                                           | Description                                                     |
 |-------------------------------------------------|-----------------------------------------------------------------|
 | `/src/`                                         | The folder for your source files                                |
-| `/src/app/`                                     | Main Application                                                |
-| `/src/app/assets/`                              | - Assets (images, fonts, stylesheets, etc.)                     |
-| `/src/app/layouts/`                             | - Layouts / Templates                                           |
-| `/src/app/pages/`                               | - Pages                                                         |
-| `/src/app/appContainer.tsx`                     | - Main application router                                       |
-| `/src/startup.ts`                               | The list and configuration of your mapped applications          |
-| `/src/index.html`                               | The index file                                                  |
-| `/public/`                                      | The folder for your static files will be on your webroot        |
+| `/src/assets/css`                                     | Main Application                                                |
+| `/src/components`                              | - Assets (images, fonts, stylesheets, etc.)                     |
+| `/src/layouts/main`                             | - Layouts / Templates                                           |
+| `/src/mock`                               | - Pages                                                         |
+| `/src/modals`                     | - Main application router                                       |
+| `/src/pages`                               | The list and configuration of your mapped applications          |
+| `/src/routes`                               | The index file                                                  |
+| `/src/store`                                      | The folder for your static files will be on your webroot        |
+| `/src/utils`                                      | The folder for your static files will be on your webroot        |
+
 
 
 
