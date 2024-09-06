@@ -24,6 +24,7 @@ Twitter Clone is a copy of the original twitter (new name X). This project is ma
 
 # Quick Start
 Ensure that `node.js` is installed on your system first.
+Clone the git repo and execute install dependencies from npm to get ready:
 
 ```sh
 npm create vite@latest
@@ -31,6 +32,20 @@ cd twitter-clone
 npm install
 npm run dev
 ```
+
+## Directory Structure
+
+| Path.                                           | Description                                                     |
+|-------------------------------------------------|-----------------------------------------------------------------|
+| `/src/`                                         | The folder for your source files                                |
+| `/src/app/`                                     | Main Application                                                |
+| `/src/app/assets/`                              | - Assets (images, fonts, stylesheets, etc.)                     |
+| `/src/app/layouts/`                             | - Layouts / Templates                                           |
+| `/src/app/pages/`                               | - Pages                                                         |
+| `/src/app/appContainer.tsx`                     | - Main application router                                       |
+| `/src/startup.ts`                               | The list and configuration of your mapped applications          |
+| `/src/index.html`                               | The index file                                                  |
+| `/public/`                                      | The folder for your static files will be on your webroot        |
 
 
 
