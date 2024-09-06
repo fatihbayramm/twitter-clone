@@ -196,7 +196,7 @@ export const topics = [
     title: "Türkiye tarihinde gündemde",
     topic: {
       type: "query",
-      value: "Fenerabahçe",
+      value: "Fenerbahçe",
     },
     postCount: 6500,
   },

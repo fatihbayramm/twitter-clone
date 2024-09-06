@@ -5,7 +5,7 @@ export default function Logo() {
     <div className="py-0.5">
       <Link
         to="/"
-        className=" text-[color:var(--color-base)]w-[52px] h-[52px] rounded-full flex items-center justify-center hover:bg-[color:var(--background-third)] transition-colors"
+        className=" text-[color:var(--color-base)] w-[52px] h-[52px] rounded-full flex items-center justify-center hover:bg-[color:var(--background-third)] transition-colors"
       >
         <svg viewBox="0 0 24 24" width={30} height={30}>
           <path

@@ -154,7 +154,7 @@ export default function AppearanceModal({ close }) {
                 onClick={() => {
                   setColor({
                     ...color,
-                    base: "#0f149",
+                    base: "#0f1419",
                     baseSecondary: "#536471",
                   });
                   setBackgroundColor({
